@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to kakao talk</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <!--todo:wifi-icon-->
+            <i class="fa-solid fa-wifi"></i>
+              
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>220%</span>
+            <!--Battery Icon-->
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <!--lightning Icon-->
+            <i class="fa-solid fa-bolt-lightning"></i>
+
+        </div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to ChayChay talk</h1>
+        <p class="welcome-header__text">If you have a kakao account, log in with your email or phone number</p>
+        
+    </header>
+    <form id="login-form">
+        <input type="text" placeholder="email or phone number"/>
+        <input type="password" placeholder="password"/>
+        <input type="submit" value="log in"/>
+        <a href="#">Find Kakao Account or Password</a>
+
+    </form>
+    
+    <script src="https://kit.fontawesome.com/3c7200db21.js" crossorigin="anonymous"></script>
+</body>
+</html>
