@@ -1,11 +1,12 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Young+Serif&display=swap');
 @import "variables.css";
-@import "components/status-bar.css";
+@import "../css/components/status-bar.css";
 @import "screens/login.css";
-@import "components/nav-bar.css "
+@import "../css/components/nav-bar.css";
 
-body{
+body
+{
 font-family: 'Nanum Gothic', sans-serif;
 font-family: 'Nanum Myeongjo', serif;
 font-family: 'Young Serif', serif;}
