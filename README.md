@@ -1,3 +1,3 @@
 #kokoa clone 2023 update
 
-html&css got so much better!
+카카오톡 화면 구현
