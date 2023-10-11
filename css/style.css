@@ -4,10 +4,12 @@
 @import "../css/components/status-bar.css";
 @import "screens/login.css";
 @import "../css/components/nav-bar.css";
-
+@import "../css/components/screen-header.css";
+@import "screens/friends.css";
 body
 {
 font-family: 'Nanum Gothic', sans-serif;
 font-family: 'Nanum Myeongjo', serif;
-font-family: 'Young Serif', serif;}
+font-family: 'Young Serif', serif;
+color:#2e363e;}
 
